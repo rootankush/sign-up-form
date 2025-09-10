@@ -6,5 +6,50 @@
     <link rel="stylesheet" href="/style.css" />
     <title>Sign Up Form</title>
   </head>
-  <body></body>
+  <body>
+    <div class="half-page-bg"></div>
+    <div class="container">
+      <div class="startPage">
+        <p id="intro">
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.
+        </p>
+        <p id="quote">You know you want to.</p>
+      </div>
+      <div class="centerPage">
+        <p class="inputHeading">Let's do this!</p>
+        <form action="" method="POST">
+          <div class="form-group">
+            <label for="firstName">FIRST NAME</label>
+            <input type="text" id="firstName" required />
+          </div>
+          <div class="form-group">
+            <label for="lastName">LAST NAME</label>
+            <input type="text" id="lastName" required />
+          </div>
+          <div class="form-group">
+            <label for="emailAddr">EMAIL</label>
+            <input type="text" id="emailAddr" required />
+          </div>
+          <div class="form-group">
+            <label for="phoneNumber">PHONE NUMBER</label>
+            <input type="text" id="phoneNumber" required />
+          </div>
+          <div class="form-group">
+            <label for="password">PASSWORD</label>
+            <input type="text" id="password" required />
+          </div>
+          <div class="form-group">
+            <label for="confirmPassword">CONFIRM PASSWORD</label><br />
+            <input type="text" id="confirmPassword" required />
+          </div>
+        </form>
+      </div>
+      <div class="endPage">
+        <button>Create Account</button>
+        <p>Already have an account?</p>
+      </div>
+      <span id="login">Log in</span>
+    </div>
+  </body>
 </html>
