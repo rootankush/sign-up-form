@@ -1,3 +1,5 @@
+@import url("fonts.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +25,7 @@ body {
   align-self: center;
   justify-content: center;
   margin: 5rem;
-  gap: 5rem;
+  gap: 3rem;
 }
 
 .startPage {
@@ -52,5 +54,60 @@ body {
   font-weight: bold;
 }
 
-#form {
+form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+form .user-details .input-box {
+  margin: 20px 0 20px 0;
+  width: calc(100% / 2 - 50px);
+}
+
+.user-details .input-box label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.input-box input:invalid {
+  border-color: red;
+}
+
+.input-box input:focus {
+  border-color: blue;
+}
+
+.endPage {
+  text-align: left;
+}
+
+.endPage .button {
+  height: 45px;
+  margin-bottom: 20px;
+}
+
+.endPage .button input {
+  height: 100%;
+  width: 20%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background-color: #db277a;
 }

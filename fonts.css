@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Courier Prime", Courier, monospace;
+  src:
+    url("/assets/fonts/Courier\ Prime.woff") format("woff2"),
+    url("/assets/fonts/Courier\ Prime.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Courier Bold";
+  src:
+    url("/assets/fonts/Courier\ Prime\ Bold.woff") format("woff"),
+    url("/assets/fonts/Courier\ Prime\ Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Diner Fatt";
+  src:
+    url("/assets/fonts/Diner-Fatt.woff") format("woff"),
+    url("/assets/fonts/Diner-Fatt.woff2");
+}
