@@ -139,7 +139,7 @@ form .user-details .input-box {
 }
 
 .background-trans {
-  margin: 100px auto;
+  margin: 100px 0px;
   height: 210px;
   width: 500px;
   background-color: rgba(0, 0, 0, 0.5);
